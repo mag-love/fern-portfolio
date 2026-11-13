@@ -1,20 +1,2 @@
+assets/local-only/
 .DS_Store
-**/.DS_Store
-*.log
-.vscode/
-.idea/
-
-# site build leftovers
-assets/old/
-old.html
-old 2.html
-"old RESUME/"
-old RESUME/
-premium.html
-premium-v2-tocadiscos-telefone-2026-06-13.html
-index-v1.html
-fern.html
-FERN-links.html
-FERN-links.pdf
-FERN-light-1.pdf
-v3/
