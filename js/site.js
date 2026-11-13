@@ -201,7 +201,7 @@
     const c = (D.hero || []).find(x => heroVideo.currentTime < x.until);
     if (!c || c === heroCue) return;
     heroCue = c;
-    root.dataset.tone = String((D.hero || []).indexOf(c) % 3);   // azul, amarelo, vermelho: troca a cada filme
+    root.dataset.tone = String((D.hero || []).indexOf(c) % 7);   // azul, amarelo, vermelho, ciano, rosa, laranja, verde-limão: troca a cada filme
     $('#heroTitle').textContent = c.title;
     $('#heroCredit').textContent = c.credit;
     const b = $('#heroOpen');

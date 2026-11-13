@@ -20,6 +20,10 @@
 /* Pele A: a cor de destaque troca a cada filme da abertura: azul, amarelo, vermelho. */
 html[data-skin="fff"][data-tone="1"] { --accent: #FFD21F; --on-accent: #0b0b0b; }
 html[data-skin="fff"][data-tone="2"] { --accent: #FF2A1C; --on-accent: #ffffff; }
+html[data-skin="fff"][data-tone="3"] { --accent: #00D7FF; --on-accent: #0b0b0b; }
+html[data-skin="fff"][data-tone="4"] { --accent: #FF6EC4; --on-accent: #0b0b0b; }
+html[data-skin="fff"][data-tone="5"] { --accent: #FF8A00; --on-accent: #0b0b0b; }
+html[data-skin="fff"][data-tone="6"] { --accent: #B4FF3B; --on-accent: #0b0b0b; }
 html[data-skin="fff"] {
   --bg: #020202; --bg2: #0c0c0f; --fg: #ffffff;
   --muted: rgba(255, 255, 255, .68); --dim: rgba(255, 255, 255, .45);
